@@ -1,5 +1,5 @@
 pipeline {
-    agent { label "saiprasad_Agent" }
+    agent { label "node-tofdo-cicd" }
     stages{
         stage("Clone Code"){
             steps{
